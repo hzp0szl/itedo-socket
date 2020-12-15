@@ -1,7 +1,7 @@
 {
   "name": "itedo/itedo-socket",
   "description": "Based on laravel socket.io package",
-  "license": "license",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "just itedo",
@@ -18,9 +18,7 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/",
-      "Database\\Factories\\": "database/factories/",
-      "Database\\Seeders\\": "database/seeders/",
-      "Itedo\\Itedo-socket": "packages/itedo/itedo-socket/src"
+      "Itedo\\Itedo-socket\\": "packages/itedo/itedo-socket/src"
     }
   },
   "autoload-dev": {
