@@ -9,7 +9,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/theseer/tokenizer/issues"
+    "issues": "https://github.com/hzp0szl/itedo-socket/issues"
   },
   "require": {
     "php": "^7.3",
