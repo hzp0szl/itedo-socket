@@ -1,6 +1,6 @@
 <?php
 
-namespace Itedo\IteSocket;
+namespace Itedo\IteSocket\Providers;
 
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;

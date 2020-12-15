@@ -17,13 +17,15 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "app/",
-      "Itedo\\": "packages/itedo-socket/src"
+      "Itedo\\IteSocket\\": "src"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/socket"
+  "extra": {
+    "laravel": {
+      "providers": "Itedo\\IteSocket\\Providers\\SocketServiceProvider"
+    },
+    "aliases": {
+      "IteSocket": "Itedo\\IteSocket\\Facades\\IteSocket"
     }
   }
 }
