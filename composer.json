@@ -1,0 +1,32 @@
+{
+  "name": "itedo/itedo-socket",
+  "description": "Based on laravel socket.io package",
+  "license": "license",
+  "authors": [
+    {
+      "name": "just itedo",
+      "email": "5575165@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/theseer/tokenizer/issues"
+  },
+  "require": {
+    "php": "^7.3",
+    "workerman/phpsocket.io": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/",
+      "Itedo\\Itedo-socket": "packages/itedo/itedo-socket/src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
+
