@@ -1,5 +1,5 @@
 {
-  "name": "itedo/itesocket",
+  "name": "itedo/ite-socket",
   "description": "Based on laravel socket.io package",
   "license": "BSD-3-Clause",
   "authors": [
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Itedo\\IteSocket\\": "src"
+      "Itedo\\IteSocket\\": "src/"
     }
   },
   "extra": {
