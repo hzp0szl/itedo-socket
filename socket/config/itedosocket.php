@@ -10,6 +10,11 @@ return [
     |
     */
 
-    'service_port' => '3333',
-    'client_port' => '2121'
+    'service' => [
+        'port' => '2222',
+    ],
+
+    'client' => [
+        'port' => 1212
+    ]
 ];
