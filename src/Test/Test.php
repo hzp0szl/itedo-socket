@@ -1,5 +1,5 @@
 <?php
-namespace Itedo\Socket\Test;
+namespace Test;
 
 class Test
 {

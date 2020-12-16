@@ -1,5 +1,5 @@
 <?php
-namespace Itedo\Socket\Serve;
+namespace Serve;
 
 use PHPSocketIO\SocketIO;
 
