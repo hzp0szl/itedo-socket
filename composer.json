@@ -17,7 +17,15 @@
   },
   "autoload": {
     "psr-4": {
-      "Itedo\\IteSocket\\": "src/"
+      "Itedo\\Socket\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "Providers": "Itedo\\Socket\\Providers\\SocketServiceProvider"
+    },
+    "aliases": {
+      "IteSocket": "Itedo\\Socket\\Facades\\IteSocket"
     }
   }
 }
