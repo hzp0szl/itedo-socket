@@ -1,6 +1,6 @@
 <?php
 
-namespace Service;
+namespace Itedo\Socket\Service;
 
 use Illuminate\Contracts\Container\Container;
 

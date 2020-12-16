@@ -1,6 +1,6 @@
 <?php
 
-namespace Providers;
+namespace Itedo\Socket\Providers;
 
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;
@@ -17,7 +17,6 @@ class SocketServiceProvider extends ServiceProvider
             return (new IteSocketService($app));
         });
     }
-
     /**
      * Bootstrap any application services.
      *

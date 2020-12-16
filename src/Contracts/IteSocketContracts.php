@@ -1,5 +1,5 @@
 <?php
-namespace Contracts;
+namespace Itedo\Socket\Contracts;
 
 class IteSocketContracts
 {
