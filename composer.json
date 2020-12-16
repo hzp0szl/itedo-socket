@@ -19,14 +19,6 @@
     "psr-4": {
       "Itedo\\IteSocket\\": "src/"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": "Itedo\\Socket\\Providers\\SocketServiceProvider"
-    },
-    "aliases": {
-      "IteSocket": "Itedo\\Socket\\Facades\\IteSocket"
-    }
   }
 }
 
