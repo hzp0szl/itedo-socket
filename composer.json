@@ -22,10 +22,10 @@
   },
   "extra": {
     "laravel": {
-      "providers": "Itedo\\IteSocket\\Providers\\SocketServiceProvider"
+      "providers": "Itedo\\Socket\\Providers\\SocketServiceProvider"
     },
     "aliases": {
-      "IteSocket": "Itedo\\IteSocket\\Facades\\IteSocket"
+      "IteSocket": "Itedo\\Socket\\Facades\\IteSocket"
     }
   }
 }
